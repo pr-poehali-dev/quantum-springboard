@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
-    description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
-  },
-  {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
-    description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
-  },
-  {
-    title: "Кадровое агентство CAN",
+    title: "Корпоративный портал",
     category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    image: "/professional-corporate-website.png",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Многофункциональный корпоративный портал с личным кабинетом, системой документооборота и интеграцией с 1С. Ускорил внутренние процессы компании на 40%.",
+    url: "#portfolio",
+    tags: ["React", "Python", "PostgreSQL", "REST API"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Интернет-магазин",
+    category: "E-commerce",
+    image: "/modern-ecommerce-website.png",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Полнофункциональный интернет-магазин с каталогом, корзиной, онлайн-оплатой и личным кабинетом покупателя. Рост конверсии в 2 раза после запуска.",
+    url: "#portfolio",
+    tags: ["React", "Node.js", "Stripe", "Tailwind CSS"],
+  },
+  {
+    title: "Лендинг ресторана",
+    category: "Веб-дизайн и разработка",
+    image: "/restaurant-website-design.png",
+    description:
+      "Современный сайт ресторана с онлайн-бронированием столиков, меню и фотогалереей. Увеличил количество онлайн-броней на 60% за первый месяц.",
+    url: "#portfolio",
+    tags: ["React", "Vite", "Tailwind CSS", "Figma"],
+  },
+  {
+    title: "Платформа SMM-агентства",
+    category: "Веб-приложение",
+    image: "/social-media-graphics.png",
+    description:
+      "Платформа для управления контентом и аналитики соцсетей. Автоматизировала публикации и отчётность для команды из 15 человек.",
+    url: "#portfolio",
+    tags: ["React", "Python", "PostgreSQL", "Charts.js"],
   },
 ]
 
@@ -48,7 +48,7 @@ export function PortfolioSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Ознакомьтесь с нашими последними работами. Каждый проект — это индивидуальное решение под задачи конкретного бизнеса.
           </p>
         </div>
 

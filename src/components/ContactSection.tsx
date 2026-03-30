@@ -41,7 +41,7 @@ export function ContactSection() {
             Давайте <span className="text-primary">создавать вместе</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Готовы воплотить ваши цифровые амбиции? Свяжитесь с нами без обязательств и узнайте, чем мы можем помочь.
+            Расскажите о вашем проекте — мы обсудим задачу и предложим оптимальное решение. Первая консультация бесплатно.
           </p>
         </div>
 
@@ -131,7 +131,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">E-mail</h3>
-                    <p className="text-sm text-muted-foreground">hello@example.com</p>
+                    <p className="text-sm text-muted-foreground">info@infotech-plus.ru</p>
                   </div>
                 </div>
               </CardContent>
